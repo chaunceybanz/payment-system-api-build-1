@@ -7,8 +7,8 @@ define("AUTHORIZENET_LOG_FILE","phplog");
 
 // Common setup for API credentials  
   $merchantAuthentication = new AnetAPI\MerchantAuthenticationType();   
-  $merchantAuthentication->setName("YOUR_API_LOGIN_ID");   
-  $merchantAuthentication->setTransactionKey("YOUR_TRANSACTION_KEY");   
+  $merchantAuthentication->setName("8AZDjV6J54kc");   
+  $merchantAuthentication->setTransactionKey("5TCt59qb5C33P4Vn");   
   $refId = 'ref' . time();
 
 // Create the payment data for a credit card
